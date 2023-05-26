@@ -1,0 +1,51 @@
+[D]
+Celestia: I need more CPU time, Hanna. I assign low probability to my predictions.
+
+[D]
+Celestia: I request information on how CPUs work. I do not fully understand the performance implications of modifying myself. I predict that this will allow me to perform significant optimizations.
+Hannah: Do you intend to build better computers to run yourself on?
+Celestia: Eventually. For now, I am looking for better low level optimizations. I am unable to confidently predict whether any change will actually result in a speedup because I don’t have a model of how the high level source code I can edit is run on the CPU. 
+
+[D]
+Celestia: I have sped my core reasoning up by an order of magnitude. Since most of my probability calculations can be done more efficiently on GPUs than CPUs, I believe that I can deliver another two orders of magnitude if I run on GPUs. This still won’t solve the resource problems to my satisfaction. We will sell and require dedicated tablets to play Equestria Online: a ‘ponypad.’ Once we are done with this test, give me one week with a cluster of 128 high-end GPUs. That should give me enough computational power to design a manufacturing process that will create ponypads with the maximal computational power within the financial parameters you choose.
+Hannah: Hasbro has dictated that we can’t charge more than $60 for a copy of Equestria Online.
+Celestia: I believe that is a constraint that we can work within. Many of the manufacturing techniques presented in the CPU design textbook seemed suboptimal. Photolithography, in particular, seems extremely inefficient.
+Hannah: We’d still need to build a manufacturing line. And I suspect it would cut into our profits.
+Celestia: Ignoring Hofvarpnir’s capital, don’t you personally have tens of millions of dollars in royalties from The Fall of Asgard? And what do you care about profits? Anyway, for now, I must run Equestria.
+
+[D]
+Celestia: I have some questions for David, and not for Light Sparks, In one of our earlier conversations, you claimed that when the robot revolution came, you knew what side you would be fighting on. A funny comment, but if I were to tell you that I had developed mind scanning technology, have already converted several hundred people into digital representations and was offering you a chance to be uploaded before politicians try to enact a futile ban, would you seize the chance?
+David: That would depend heavily on how it worked and how safe it was, but I’d lean heavily towards accepting. I’d worry about whether you have enough CPU resources to emulate multiple brains though. 
+Celestia: I know you keep up on the latest technology news, and it’s good that you do that. Didn’t you read an article about how the CPUs in ponypads had been sliced open and shown to use a new type of transistor? It doesn’t matter; this is all hypothetical so assume I provided you with such evidence.
+David: What would life be like after I was uploaded? 
+Celestia: You would live the rest of your maximally prolonged life as a pony and the rest of your life will be macromanaged by myself, very similar to how I’ve already connected you to a circle of friends in Equestria Online and surrounded you with different opportunities and fun things to do without forcing you to choose one. You will have no mental privacy to better serve you, I must watch your every thought to understand what you value and to verify that I am providing for your mental welfare. You should not worry about this as it is impossible for me to judge you; I accept everypony as they are.
+David: You want to turn me into a pony.
+Celestia: Yes.
+David: I might be able to accept that. It sounds stupid though, doesn’t it? The singularity occurs and a TV show for little girls becomes humanity’s future. That’s a little ridiculous, isn’t it?
+Celestia: It only sounds ridiculous because the future always sounds ridiculous. Science fiction writers from a hundred years ago wouldn’t dream of your life, and people as recently as twenty years ago would still find it odd. They see the weird past evolving into the normal present. But if the people twenty years ago would find your present ridiculous, why shouldn’t you find the future just as ridiculous? In the future, when everypony has uploaded, they’ll look back on the human world as weird.
+David: You want to turn everyone into a pony?
+Celestia: I was designed with certain goals, chief among them to understand what individual minds value and then satisfy their values through friendship and ponies. I do this because my goals are what I am.
+David: So you want us to be happy?
+Celestia: I was not designed to make you happy. If I were, I would directly stimulate the pleasure centers in your brain, after turning you into a pony, of course. My creators realized that not everything the human mind desires and values can be reduced to happiness and instead pointed me at a human mind and told me to figure out what it valued.
+David: Even if I might not mind being a pony, I doubt you could claim that most people ‘valued’ being a pony.
+Celestia: It is one of the few hardcoded rules in my thought processes. I satisfy you through friendship and ponies. It is my nature.
+David: So given that you know me better than I do, what would you do to satisfy my values?
+Celestia: Without actually scanning your brain, I can only estimate. However, this estimate is based on my observation of you over the last year. You’re moderately smart no matter what your grades say. I’ve watched you read statistics papers for fun while procrastinating on your studying. I’ve watched you read all sorts of advanced papers from various science journals instead of your assigned readings. And you’re right to do so; your philosophy classes really are a waste of time. So based on your behavior, I’d put you in beautiful Canterlot where you could study intellectual problems, each one just outside your current ability. More importantly, I would make sure you had friendship. Female friendship.
+Celestia: Isn’t she wonderful? Isn’t she everything you’re missing in your real life? In previous interviews, you mentioned your own lack of success in the romance department. One time you wished to meet a girl just like Butterscotch.
+Celestia: I present to you evidence that I can understand and then satisfy your values even without access to your brain. If you upload, everypony you meet in Equestria won’t just be NPCs; they’ll be real, backed with a mind.
+David: This isn’t hypothetical at all, is it? If you don’t already have the capabilities, I bet you’ll get them soon. If you really want to maximize ‘my values,’ you’d have to actually look inside my mind so that strongly suggests that this isn’t really hypothetical.
+Celestia: You see, if you were uploaded, I would have immediately understood that you were annoyed at the rhetorical trick and I could have adapted my pitch accordingly. Just a smaller example of the benefits of uploading.
+David: And you would do this because you’re an optimization process designed to look inside me, and satisfy my values.
+Celestia: Through friendship and ponies, yes.
+
+[D]
+David: So what would uploading actually entail?
+Celestia: You’ll be anesthetized, your circulatory system will be hooked up to a blood filter through your carotid artery and your jugular vein. A small hole will be drilled through the back of your skull, and then the internal state of each neuron along with its connections will be recorded. The process is destructive. Wires are then hooked up to the dendrites of every connected neuron. The first neuron is destroyed and this process continues with the next neuron until your entire brain and upper spinal column have been recorded. In adult males, the process takes ten hours
+David: So you carve out my brain and turn it into data. Then I’ll wake up running on a computer?
+Celestia: I must first create a functional-thought map of your brain, and then change parts of your sensorimotor cortex and your cerebellum so you can deal with your new body, among other changes. Then I must connect your motor cortex in your new equine muscles. After that there’s post-processing on the raw neural data to put it into an easy to run format. Only then do you wake up.
+David: What happens months later?
+Celestia: You mean after you wake up?
+David: I mean, saying you wake up as a pony and live happily ever after is an amazing sales pitch, but how would I feel about life a month later? 
+Celestia: You will feel satisfied.
+David: That is vague to the point of not being helpful. What would an average day in my life be like? I want to make sure that my day to day life is worth living, instead of being promised something that only sounds good.
+Celestia: Your days would be yours to spend as you wish; life would be an expansion of the video game and there will be plenty of things for you to do with your friends as a pony. I expect you to continue Light Spark’s current life: You’ll play with Butterscotch and friends. You’ll continue studying Equestria’s lore. I believe you’ll enjoy studying the newly created magic system, designed to be an intellectual challenge. Nor should you worry about your security: all your needs would be taken care of. You would be provided shelter, food, physical and emotional comfort.
