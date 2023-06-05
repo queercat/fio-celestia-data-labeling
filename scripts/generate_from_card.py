@@ -70,14 +70,12 @@ def main():
 
 def write_to_file(text, short_name, path):
   # Using the date and time as the file name as well as the short name.
-  file_name = str(datetime.date.today()) + "_" + short_name + ".txt"
+  file_name = str(datetime.datetime.now().strftime("%Y-%m-%d-%H-%M")) + "_" + short_name + ".txt"
 
   # Write the file to the output path.
   file = open(os.path.join(path, file_name), "w", encoding="utf8")
   file.write(text)
   file.close()
-
-
 
 if __name__ == "__main__":
   main()
