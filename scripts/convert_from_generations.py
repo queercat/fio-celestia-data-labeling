@@ -9,10 +9,20 @@ from utils import success, failure
 
 def main():
   GENERATIONS_PATH = os.path.join(os.path.dirname(__file__), "../generations")
-
   if not os.path.exists(GENERATIONS_PATH):
     failure("No generations folder found")
 
+  OUTPUT_PATH = os.path.join(os.path.dirname(__file__), "../training_data")
+  if not os.path.exists(OUTPUT_PATH):
+    failure("No output directory.")
+
+  OUTPUT_PATH = os.path.join(OUTPUT_PATH, "training_data.txt")
+
+  if os.path.exists(OUTPUT_PATH):
+    os.remove(OUTPUT_PATH)
+
+  with open(OUTPUT_PATH, "w") as f:
+    f.write("[\n")
   # Put all the files in a list.
   generations_list = os.listdir(GENERATIONS_PATH)
 
@@ -27,22 +37,17 @@ def main():
 
     with open(path, "r") as f:
       objects = convert_file_to_array(f)
-
     if len(objects) == 0:
       failure("Unable to generate objects")
 
-    OUTPUT_PATH = os.path.join(os.path.dirname(__file__), "../training_data/")
-
-    if not os.path.exists(OUTPUT_PATH):
-      failure("No output directory.")
-
     # Write the objects to a file.
-    with open(os.path.join(OUTPUT_PATH, "training_data.txt"), "a") as f:
+    with open(OUTPUT_PATH, "a") as f:
       # Write each object as json to the file.
       for object in objects:
-        f.write(str(object) + "\n")
-
-
+        f.write(str(object) + ",\n")
+  with open(OUTPUT_PATH, "a") as f:
+    f.write("]")
+  success("Successfully generated training data.")
 
 def convert_file_to_array(file):
   """
