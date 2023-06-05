@@ -35,3 +35,5 @@ This may take a few people dedicatedly crafting prompts and generating dialogue 
 # Notes & Observations
 
 GPT seems to lose focus quickly, it's best to condense information it seems.
+
+See data for examples of data that I'm working with.
