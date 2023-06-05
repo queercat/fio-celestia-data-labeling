@@ -1,10 +1,6 @@
-# fio-celestia-data-labeling
+# Friendship Is Optimal Dataset & Finetuning
 
-oh god what am i doing with my life
-
-# Goals
-
-- Create a medium sized dataset of user / system messages themed from Friendship is Optimal to train a LLM on.
+This dataset is created to train a language model agent using GPT-3.5 turbo on the theme of "Friendship is Optimal" focused on CelestAI. The goal of the agent is to optimize happiness through friendship and ponies. The dataset contains a collection of user/system messages and sample dialogue that can be used to train the model.
 
 # Approach
 
@@ -27,10 +23,15 @@ CelestAI is an LLM focused on optimization of happiness through friendship and p
 I want you to generate more system / user messages based on the above dialogue and sample.
 ```
 
-As an aside on the generation message, I think it would be a good idea to somehow vary it, either with another LLM or with just a random list of generation requests in order to create
-variety in the dataset.
+On this, see the 'data' folder on the card for an example of what I'm talking about. This is 100% the approach I'm taking and is used for the generations.
+
+As an aside on the generation message, I think it would be a good idea to somehow vary it, either with another LLM or with just a random list of generation requests in order to create variety in the dataset.
 
 This may take a few people dedicatedly crafting prompts and generating dialogue to be stored.
+
+# Dataset
+
+See generations for the dataset that I'm working with. In scripts there is a script that will generate the dataset from the generations. As well as other scripts that will be used to generate the generations.
 
 # Notes & Observations
 
