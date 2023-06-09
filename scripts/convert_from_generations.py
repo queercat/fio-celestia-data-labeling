@@ -21,8 +21,6 @@ def main():
   if os.path.exists(OUTPUT_PATH):
     os.remove(OUTPUT_PATH)
 
-  with open(OUTPUT_PATH, "w") as f:
-    f.write("[\n")
   # Put all the files in a list.
   generations_list = os.listdir(GENERATIONS_PATH)
 
@@ -44,12 +42,7 @@ def main():
     with open(OUTPUT_PATH, "a") as f:
       # Write each object as json to the file.
       for idx, object in enumerate(objects):
-        if idx == len(objects) - 1 and idy == len(generations_list) - 1:
           f.write(json.dumps(object) + "\n")
-        else:
-          f.write(json.dumps(object) + ",\n")
-  with open(OUTPUT_PATH, "a") as f:
-    f.write("]\n")
   success("Successfully generated training data.")
 
 def convert_file_to_array(file):
@@ -92,10 +85,10 @@ def convert_file_to_array(file):
     if ":" not in line:
       continue
     if "User:" in line and value == 0:
-      object["User"] = line.split("User:")[1].strip()
+      object["prompt"] = line.split("User:")[1].strip()
       value = increment_value(value)
     elif "CelestAI:" in line and value == 1:
-      object["CelestAI"] = line.split("CelestAI:")[1].strip()
+      object["completion"] = line.split("CelestAI:")[1].strip()
       value = increment_value(value)
       objects.append(object)
       object = {}
