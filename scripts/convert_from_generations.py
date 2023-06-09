@@ -16,7 +16,7 @@ def main():
   if not os.path.exists(OUTPUT_PATH):
     failure("No output directory.")
 
-  OUTPUT_PATH = os.path.join(OUTPUT_PATH, "training_data.json")
+  OUTPUT_PATH = os.path.join(OUTPUT_PATH, "training_data.jsonl")
 
   if os.path.exists(OUTPUT_PATH):
     os.remove(OUTPUT_PATH)
@@ -42,7 +42,10 @@ def main():
     with open(OUTPUT_PATH, "a") as f:
       # Write each object as json to the file.
       for idx, object in enumerate(objects):
-          f.write(json.dumps(object) + "\n")
+          if idx == len(objects) - 1 and idy == len(generations_list) - 1:
+            f.write(json.dumps(object))
+          else:
+            f.write(json.dumps(object) + "\n")
   success("Successfully generated training data.")
 
 def convert_file_to_array(file):
